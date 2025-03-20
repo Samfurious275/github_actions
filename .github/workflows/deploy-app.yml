@@ -22,6 +22,7 @@ jobs:
 
       # Step 3: Install dependencies and build the application
       - name: Install dependencies
+        working-directory: ./github_actions/simple-nodejs-app
         run: npm install
 
       - name: Build application
